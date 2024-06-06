@@ -1,0 +1,184 @@
+{
+
+  // Formatação automática
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Configurações do Prettier
+  "prettier.printWidth": 80, // Largura máxima da linha
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  // Configurações do ESLint
+  "eslint.enable": true,
+  "eslint.run": "onSave",
+  // Configurações do Editor
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  // Configurações de Autocomplete e Intellisense
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "path-intellisense.autoSlashAfterDirectory": true,
+  // Outras Configurações de Qualidade de Vida
+  "auto-rename-tag.activationOnLanguage": [
+    "html",
+    "xml",
+    "php",
+    "javascript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "files.watcherExclude": {
+    "**/node_modules/*/**": true,
+    "**/bower_components/*/**": true
+  },
+  "editor.formatOnSave": true,
+  "prettier.trailingComma": "all", // opcional, adiciona vírgulas no final de objetos e arrays
+  "prettier.semi": true, // garante que ponto e vírgula seja adicionado
+  "javascript.autoClosingTags": true,
+  "html.autoClosingTags": true,
+  "javascript.format.enable": true,
+  "css.format.enable": true,
+  "html.format.enable": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.autoIndent": "full",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand",
+  "files.autoSave": "afterDelay",
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "discord.detailsIdling": "👀 Procurando nos Arquivos...",
+  "discord.detailsEditing": "☕ {file_name} com {file_size}",
+  "discord.largeImageIdling": "⏲️ Café e Código",
+  "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
+  "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
+  "discord.lowerDetailsIdling": "☕ Hora do café",
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
+  },
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite",
+    ".env.example": "gear"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
+  ],
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.showExitAlert": false,
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "typescript.suggest.autoImports": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.editor.labelFormat": "short",
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": false,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "monospace nerd",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql"
+  ],
+  "breadcrumbs.enabled": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.fontFamily": "JetBrains Mono",
+  "gitlens.codeLens.authors.enabled": false,
+  "editor.tabSize": 2,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "files.exclude": {
+    "**\/CVS": true,
+    "**\/.DS_Store": true,
+    "**\/.hg": true,
+    "**\/.svn": true,
+    "**\/.git": true,
+    ".vscode": true,
+    "node_modules": true
+  },
+  "workbench.iconTheme": "symbols",
+  "update.mode": "start",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "window.commandCenter": false,
+  "git.openRepositoryInParentFolders": "always",
+  "symbols.hidesExplorerArrows": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "console-ninja.featureSet": "Community",
+  "workbench.editor.empty.hint": "hidden",
+  "update.showReleaseNotes": false,
+  "security.promptForLocalFileProtocolHandling": false,
+  "workbench.activityBar.location": "default",
+  "editor.minimap.enabled": true,
+  "window.titleBarStyle": "custom",
+  "apc.font.family": "Inter",
+  "editor.scrollbar.vertical": "visible",
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "explorer.fileNesting.enabled": true,
+  "workbench.statusBar.visible": true,
+  "editor.stickyScroll.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.guides.bracketPairs": "active",
+  "prettier.singleQuote": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.colorTheme": "Min Dark",
+  "window.density.editorTabHeight": "compact",
+  "terminal.integrated.env.windows": {},
+}
