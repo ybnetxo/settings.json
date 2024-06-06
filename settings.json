@@ -1,26 +1,19 @@
 {
-
-  // Formatação automática
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // Configurações do Prettier
-  "prettier.printWidth": 80, // Largura máxima da linha
+  "prettier.printWidth": 80,
   "prettier.tabWidth": 2,
   "prettier.useTabs": false,
-  // Configurações do ESLint
   "eslint.enable": true,
   "eslint.run": "onSave",
-  // Configurações do Editor
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
-  // Configurações de Autocomplete e Intellisense
   "editor.quickSuggestions": {
     "other": true,
     "comments": false,
     "strings": true
   },
   "path-intellisense.autoSlashAfterDirectory": true,
-  // Outras Configurações de Qualidade de Vida
   "auto-rename-tag.activationOnLanguage": [
     "html",
     "xml",
@@ -34,8 +27,8 @@
     "**/bower_components/*/**": true
   },
   "editor.formatOnSave": true,
-  "prettier.trailingComma": "all", // opcional, adiciona vírgulas no final de objetos e arrays
-  "prettier.semi": true, // garante que ponto e vírgula seja adicionado
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
   "javascript.autoClosingTags": true,
   "html.autoClosingTags": true,
   "javascript.format.enable": true,
