@@ -1,85 +1,45 @@
 {
-  "editor.formatOnPaste": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.printWidth": 80,
-  "prettier.tabWidth": 2,
-  "prettier.useTabs": false,
-  "eslint.enable": true,
-  "eslint.run": "onSave",
-  "editor.insertSpaces": true,
-  "editor.detectIndentation": false,
-  "editor.quickSuggestions": {
-    "other": true,
-    "comments": false,
-    "strings": true
-  },
-  "path-intellisense.autoSlashAfterDirectory": true,
-  "auto-rename-tag.activationOnLanguage": [
-    "html",
-    "xml",
-    "php",
-    "javascript",
-    "javascriptreact",
-    "typescriptreact"
-  ],
-  "files.watcherExclude": {
-    "**/node_modules/*/**": true,
-    "**/bower_components/*/**": true
-  },
-  "editor.formatOnSave": true,
-  "prettier.trailingComma": "all",
-  "prettier.semi": true,
-  "javascript.autoClosingTags": true,
-  "html.autoClosingTags": true,
-  "javascript.format.enable": true,
-  "css.format.enable": true,
-  "html.format.enable": true,
-  "editor.semanticHighlighting.enabled": true,
-  "editor.autoIndent": "full",
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorStyle": "line",
-  "editor.cursorBlinking": "expand",
-  "files.autoSave": "afterDelay",
   "editor.bracketPairColorization.enabled": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.8,
-  "javascript.suggest.autoImports": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.stickyScroll.enabled": false,
+  "editor.wordWrap": "on",
+  "files.autoSave": "afterDelay",
+  "editor.guides.bracketPairs": "active",
+  "prettier.singleQuote": true,
+  "editor.autoIndent": "full",
+  "editor.formatOnSave": true,
+  "javascript.format.enable": true,
   "discord.detailsIdling": "👀 Procurando nos Arquivos...",
   "discord.detailsEditing": "☕ {file_name} com {file_size}",
   "discord.largeImageIdling": "⏲️ Café e Código",
   "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
   "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
   "discord.lowerDetailsIdling": "☕ Hora do café",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "extensions.ignoreRecommendations": true,
   "typescript.tsserver.log": "off",
   "files.associations": {
-    ".env.*": "dotenv",
+    ".env.": "dotenv",
     ".prettierrc": "json",
-    "*.css": "css"
+    ".css": "css"
   },
   "symbols.files.associations": {
-    "*.module.ts": "nest",
-    "*.guard.ts": "typescript",
-    "*.spec.ts": "ts-test",
-    "*.e2e-spec.ts": "ts-test",
+    ".module.ts": "nest",
+    ".guard.ts": "typescript",
+    ".spec.ts": "ts-test",
+    ".e2e-spec.ts": "ts-test",
     "vitest.config.e2e.ts": "vite",
     ".env.example": "gear"
   },
   "tailwindCSS.experimental.classRegex": [
     [
-      "tv\\(([^)]*)\\)",
-      "[\"'`]([^\"'`]*).*?[\"'`]"
+      "tv\\(([^)])\\)",
+      "[\"'`]([^\"'`]).?[\"'`]"
     ]
   ],
   "editor.parameterHints.enabled": false,
-  "editor.renderLineHighlight": "gutter",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.suggestSelection": "first",
   "explorer.confirmDelete": false,
@@ -106,32 +66,22 @@
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "monospace nerd",
+  "terminal.integrated.fontFamily": "monospace",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "graphql"
-  ],
+  "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": false,
-  "workbench.productIconTheme": "fluent-icons",
-  "editor.fontFamily": "JetBrains Mono",
   "gitlens.codeLens.authors.enabled": false,
-  "editor.tabSize": 2,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "files.exclude": {
-    "**\/CVS": true,
-    "**\/.DS_Store": true,
-    "**\/.hg": true,
-    "**\/.svn": true,
+    "\/CVS": true,
+    "\/.DS_Store": true,
+    "\/.hg": true,
+    "\/.svn": true,
     "**\/.git": true,
     ".vscode": true,
-    "node_modules": true
   },
-  "workbench.iconTheme": "symbols",
-  "update.mode": "start",
   "terminal.integrated.gpuAcceleration": "off",
   "terminal.integrated.defaultProfile.osx": "fish",
   "[jsonc]": {
@@ -140,9 +90,7 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "window.commandCenter": false,
   "git.openRepositoryInParentFolders": "always",
-  "symbols.hidesExplorerArrows": false,
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -151,27 +99,26 @@
   "update.showReleaseNotes": false,
   "security.promptForLocalFileProtocolHandling": false,
   "workbench.activityBar.location": "default",
-  "editor.minimap.enabled": true,
   "window.titleBarStyle": "custom",
-  "apc.font.family": "Inter",
   "editor.scrollbar.vertical": "visible",
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "package.json": ".eslint, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
     "tailwind.config.js": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
     ".env": ".env*"
   },
   "explorer.fileNesting.enabled": true,
   "workbench.statusBar.visible": true,
-  "editor.stickyScroll.enabled": false,
-  "workbench.layoutControl.enabled": false,
-  "editor.wordWrap": "on",
-  "editor.guides.bracketPairs": "active",
-  "prettier.singleQuote": true,
-  "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
-  "workbench.colorTheme": "Min Dark",
-  "window.density.editorTabHeight": "compact",
   "terminal.integrated.env.windows": {},
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.semi": true,
+  "prettier.arrowParens": "always",
+  "animations.Install-Method": "Apc Customize UI++",
+  "workbench.colorTheme": "Hacker",
+  "window.density.editorTabHeight": "default",
+  "symbols.hidesExplorerArrows": false
 }
