@@ -8,12 +8,6 @@
   "editor.autoIndent": "full",
   "editor.formatOnSave": true,
   "javascript.format.enable": true,
-  "discord.detailsIdling": "👀 Procurando nos Arquivos...",
-  "discord.detailsEditing": "☕ {file_name} com {file_size}",
-  "discord.largeImageIdling": "⏲️ Café e Código",
-  "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
-  "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
-  "discord.lowerDetailsIdling": "☕ Hora do café",
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.startupEditor": "newUntitledFile",
   "javascript.suggest.autoImports": true,
@@ -25,20 +19,6 @@
     ".prettierrc": "json",
     ".css": "css"
   },
-  "symbols.files.associations": {
-    ".module.ts": "nest",
-    ".guard.ts": "typescript",
-    ".spec.ts": "ts-test",
-    ".e2e-spec.ts": "ts-test",
-    "vitest.config.e2e.ts": "vite",
-    ".env.example": "gear"
-  },
-  "tailwindCSS.experimental.classRegex": [
-    [
-      "tv\\(([^)])\\)",
-      "[\"'`]([^\"'`]).?[\"'`]"
-    ]
-  ],
   "editor.parameterHints.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.suggestSelection": "first",
@@ -113,12 +93,61 @@
   "liveServer.settings.donotVerifyTags": true,
   "terminal.integrated.env.windows": {},
   "workbench.editor.editorActionsLocation": "titleBar",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": true,
   "prettier.arrowParens": "always",
   "animations.Install-Method": "Apc Customize UI++",
-  "workbench.colorTheme": "Hacker",
   "window.density.editorTabHeight": "default",
-  "symbols.hidesExplorerArrows": false
+  "symbols.hidesExplorerArrows": false,
+  "workbench.colorTheme": "Min Dark",
+  "workbench.productIconTheme": "fluent-icons",
+  "discord.detailsIdling": "👀 Procurando nos Arquivos...",
+  "discord.detailsEditing": "☕ {file_name} com {file_size}",
+  "discord.largeImageIdling": "⏲️ Café e Código",
+  "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
+  "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
+  "discord.lowerDetailsIdling": "☕ Hora do café",
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite",
+    ".env.example": "gear"
+  },
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
+  ],
+  //"editor.renderLineHighlight": "gutter",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql"
+  ],
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.tabSize": 2,
+  "update.mode": "start",
+  "editor.hideCursorInOverviewRuler": true,
+  "apc.font.family": "Inter",
+  "apc.stylesheet": {
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand",
 }
