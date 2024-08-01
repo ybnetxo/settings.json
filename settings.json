@@ -13,12 +13,6 @@
   "editor.autoIndent": "full",
   "editor.formatOnSave": true,
   "javascript.format.enable": true,
-  "discord.detailsIdling": "👀 Procurando nos Arquivos...",
-  "discord.detailsEditing": "☕ {file_name} com {file_size}",
-  "discord.largeImageIdling": "⏲️ Café e Código",
-  "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
-  "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
-  "discord.lowerDetailsIdling": "☕ Hora do café",
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.startupEditor": "newUntitledFile",
   "javascript.suggest.autoImports": true,
@@ -115,5 +109,6 @@
   "prettier.semi": true,
   "prettier.arrowParens": "always",
   "window.density.editorTabHeight": "default",
-  "workbench.colorTheme": "Min Dark"
+  "workbench.colorTheme": "Min Dark",
+  "symbols.hidesExplorerArrows": false
 }
