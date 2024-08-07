@@ -103,11 +103,14 @@
   "workbench.statusBar.visible": true,
   "liveServer.settings.donotVerifyTags": true,
   "terminal.integrated.env.windows": {},
-  "workbench.editor.editorActionsLocation": "titleBar",
+  "workbench.editor.editorActionsLocation": "hidden",
   "workbench.iconTheme": "material-icon-theme",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": true,
   "prettier.arrowParens": "always",
   "window.density.editorTabHeight": "default",
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Min Dark",
+  "window.customTitleBarVisibility": "auto",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false
 }
