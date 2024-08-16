@@ -108,8 +108,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": true,
   "prettier.arrowParens": "always",
-  "window.density.editorTabHeight": "default",
-  "workbench.colorTheme": "Min Dark",
+  "workbench.colorTheme": "Default Dark+",
   "window.customTitleBarVisibility": "auto",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false
