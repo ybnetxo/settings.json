@@ -1,9 +1,4 @@
 {
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "graphql"
-  ],
   "editor.bracketPairColorization.enabled": true,
   "editor.stickyScroll.enabled": false,
   "editor.wordWrap": "on",
@@ -75,7 +70,7 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "console-ninja.featureSet": "Community",
+  //"console-ninja.featureSet": "Community",
   "workbench.editor.empty.hint": "hidden",
   "update.showReleaseNotes": false,
   "security.promptForLocalFileProtocolHandling": false,
@@ -90,9 +85,69 @@
   "explorer.fileNesting.enabled": true,
   "liveServer.settings.donotVerifyTags": true,
   "terminal.integrated.env.windows": {},
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": true,
   "prettier.arrowParens": "always",
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Min Dark",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite",
+    ".env.example": "gear"
+  },
+  "files.exclude": {
+    "**\/CVS": true,
+    "**\/.DS_Store": true,
+    "**\/.hg": true,
+    "**\/.svn": true,
+    "**\/.git": true,
+    ".vscode": true,
+  },
+  //"apc.font.family": "Inter",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand",
+  "extensions.autoCheckUpdates": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  /*"editor.rulers": [
+    80,
+    120
+  ],
+  */
+  //"editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 2,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "extensions.autoUpdate": true,
+  "prettier.trailingComma": "es5",
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "react.format.enable": true,
+  "react.format.insertSpaces": true,
+  "react.format.tabSize": 2,
+  "settingsSync.ignoredSettings": [
+    "editor.fontSize",
+    "editor.lineHeight",
+    "terminal.integrated.fontSize",
+    "workbench.colorTheme",
+    "workbench.iconTheme"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql"
+  ],
 }
