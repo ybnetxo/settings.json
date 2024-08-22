@@ -55,7 +55,6 @@
     "source.fixAll.eslint": "explicit"
   },
   "editor.semanticHighlighting.enabled": false,
-  "breadcrumbs.enabled": true,
   "gitlens.codeLens.authors.enabled": false,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "terminal.integrated.gpuAcceleration": "off",
@@ -74,7 +73,6 @@
   "workbench.editor.empty.hint": "hidden",
   "update.showReleaseNotes": false,
   "security.promptForLocalFileProtocolHandling": false,
-  "workbench.activityBar.location": "default",
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.patterns": {
     "package.json": ".eslint, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
@@ -85,21 +83,9 @@
   "explorer.fileNesting.enabled": true,
   "liveServer.settings.donotVerifyTags": true,
   "terminal.integrated.env.windows": {},
-  "workbench.iconTheme": "symbols",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.semi": true,
   "prettier.arrowParens": "always",
-  "workbench.colorTheme": "Min Dark",
-  "symbols.hidesExplorerArrows": false,
-  "workbench.productIconTheme": "fluent-icons",
-  "symbols.files.associations": {
-    "*.module.ts": "nest",
-    "*.guard.ts": "typescript",
-    "*.spec.ts": "ts-test",
-    "*.e2e-spec.ts": "ts-test",
-    "vitest.config.e2e.ts": "vite",
-    ".env.example": "gear"
-  },
   "files.exclude": {
     "**\/CVS": true,
     "**\/.DS_Store": true,
@@ -108,21 +94,6 @@
     "**\/.git": true,
     ".vscode": true,
   },
-  //"apc.font.family": "Inter",
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.cursorSmoothCaretAnimation": "explicit",
-  "editor.cursorStyle": "line",
-  "editor.cursorBlinking": "expand",
-  "extensions.autoCheckUpdates": true,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.8,
-  /*"editor.rulers": [
-    80,
-    120
-  ],
-  */
-  //"editor.renderLineHighlight": "gutter",
-  "editor.tabSize": 2,
   "search.exclude": {
     "**/node_modules": true,
     "**/.git": true,
@@ -150,4 +121,6 @@
     "javascriptreact",
     "graphql"
   ],
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default Dark+",
 }
