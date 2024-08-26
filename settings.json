@@ -122,5 +122,10 @@
     "graphql"
   ],
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Default Dark+",
+  "extensions.autoCheckUpdates": true,
+  "terminal.integrated.fontSize": 14,
+  "editor.scrollbar.vertical": "visible",
+  "workbench.statusBar.visible": true,
+  "workbench.layoutControl.enabled": true,
+  "workbench.colorTheme": "Min Dark",
 }
