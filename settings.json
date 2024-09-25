@@ -1,70 +1,8 @@
 {
-  "apc.stylesheet": {
-    ".editor-actions": "display: none",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".pane-header": "padding: 0 8px",
-    ".pane-body": "padding: 8px",
-    ".split-view-view:first-child .pane-header": "display: none !important;",
-    ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
-  },
-  "editor.hideCursorInOverviewRuler": true,
-  //"window.titleBarStyle": "native",
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 11,
-      "y": 10
-    },
-    "opacity": 1,
-    "vibrancy": "dark",
-    "frame": false
-  },
-  "apc.header": {
-    "height": 36
-  },
-  "apc.listRow": {
-    "height": 24
-  },
-  "apc.activityBar": {
-    "position": "bottom",
-    "hideSettings": true,
-    "size": 48,
-    "itemMargin": 8,
-    "itemSize": 32
-  },
-  "terminal.integrated.fontFamily": "monospace",
-  "symbols.files.associations": {
-    "*.module.ts": "nest",
-    "*.guard.ts": "typescript",
-    "*.spec.ts": "ts-test",
-    "*.e2e-spec.ts": "ts-test",
-    "*.mock.ts": "ts-test",
-    "vitest.config.e2e.ts": "vite",
-    ".env.development.local": "gear",
-    ".env.test.local": "gear",
-    ".env.local": "gear",
-    ".env.example": "gear"
-  },
-  "editor.rulers": [
-    80,
-    120
-  ],
-
-  //
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorStyle": "line",
-  "editor.cursorBlinking": "expand",
-  "apc.font.family": "Inter",
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.tabSize": 2,
-  "editor.renderLineHighlight": "gutter",
-  "editor.lineHeight": 1.8,
   "console-ninja.featureSet": "Community",
-  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.location": "default",
   "update.mode": "default",
-  "window.commandCenter": false,
-  "symbols.hidesExplorerArrows": false,
+  "window.commandCenter": true,
   "breadcrumbs.enabled": true,
   "typescript.preferences.preferTypeOnlyAutoImports": true,
   "workbench.tree.enableStickyScroll": false,
@@ -194,11 +132,10 @@
   "extensions.autoCheckUpdates": true,
   "terminal.integrated.fontSize": 14,
   "editor.scrollbar.vertical": "visible",
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "workbench.layoutControl.enabled": true,
   "tabnine.experimentalAutoImports": true,
-  "workbench.iconTheme": "symbols",
-  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": true,
-  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "Default Dark+",
 }
