@@ -2,7 +2,7 @@
   "update.mode": "default",
   "typescript.preferences.preferTypeOnlyAutoImports": true,
   "workbench.tree.enableStickyScroll": false,
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.bracketPairColorization.enabled": true,
   "editor.stickyScroll.enabled": false,
   "editor.wordWrap": "on",
@@ -132,6 +132,7 @@
   "editor.minimap.enabled": true,
   "workbench.layoutControl.enabled": true,
   "window.commandCenter": false,
-  "workbench.colorTheme": "Default Dark+",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Min Dark",
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "fluent-icons",
 }
