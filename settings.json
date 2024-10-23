@@ -2,7 +2,7 @@
   "update.mode": "default",
   "typescript.preferences.preferTypeOnlyAutoImports": true,
   "workbench.tree.enableStickyScroll": false,
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.bracketPairColorization.enabled": true,
   "editor.stickyScroll.enabled": false,
   "editor.wordWrap": "on",
